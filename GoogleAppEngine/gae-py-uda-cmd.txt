@@ -1,0 +1,13 @@
+通过GitHub和google cloud shell联动完成代码部署
+Basic command:
+1. 本地修改后更新到git中
+2. shell从git中pull更新代码
+3. 本地测试：dev_appserver.py $PWD
+4. 部署到云端： （使用gcloud）gcloud app deploy app.yaml --project [id-code]
+                （使用appcfg）appcfg.py -A [id-code] -V 1 update ./
+
+
+    Application runs in more servers. Problem solved?
+VM management, distributed filesystem, software management, distributed database, web server, load balancing, application monitoring, security, availability...
+
+
