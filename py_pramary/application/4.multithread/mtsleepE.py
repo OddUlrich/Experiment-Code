@@ -5,14 +5,14 @@ from time import sleep, ctime
 
 """
 	Run loop function in threading module.
-	We create a Thread instance and pass it a instance of a class: ThreadFunc.
+	We create a instance of a subclass: MyThread to make it more common.
 	This way match the thought of OOP.
 	The total time is decided by the longest time in loop function.
 	max(4, 2) = 4
 	
 	Refferent function:	
 		sleep(), ctime()
-		Thread(target=fun, args=(**argv))
+		threading.Thread.__init__(self)
 		start()
 		join()
 """
