@@ -33,6 +33,10 @@ threading 模块提供了更高级别、功能更全面的线程管理。
 
 
 
+同步原语
+使用锁：lock.acquire(), lock.release()
+使用上下文管理：使用with
+信号量：Semaphore和BoundedSemaphore（计数器）
 
 
 
